@@ -3,5 +3,9 @@
     "title": "Welcome to the Homepage",
     "content": "This is the homepage content",
     "about": "About"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {Deutsch } en {English} zh {Chinese} other {Unknown}} "
   }
 }

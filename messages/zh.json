@@ -3,5 +3,9 @@
     "title": "欢迎来到主页",
     "content": "这是主页内容",
     "about": "关于"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {Deutsch } en {English} zh {Chinese} other {Unknown}} "
   }
 }

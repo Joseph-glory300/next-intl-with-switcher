@@ -3,5 +3,9 @@
     "title": "Willkomen auf der Startseite",
     "content": "Dies ist der Inhalt der Startseite",
     "about": "Über uns"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache andern",
+    "locale": "{locale, select, de {Deutsch } en {English} zh {Chinese} other {Unknown}} "
   }
 }
