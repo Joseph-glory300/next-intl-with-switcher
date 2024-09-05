@@ -9,7 +9,6 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center  p-24">
-      <LocaleSwitcher />
       <h1 className="text-4xl">{t('title')}</h1>
       <p>{t('content')}</p>
       <Link href="/about">{t('about')}</Link>

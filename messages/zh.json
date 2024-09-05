@@ -5,7 +5,7 @@
     "about": "关于"
   },
   "LocaleSwitcher": {
-    "label": "Change language",
-    "locale": "{locale, select, de {Deutsch } en {English} zh {Chinese} other {Unknown}} "
+    "label": "切换语言",
+    "locale": "{locale, select, de {德语} en {英语} zh {中文} other {未知}}"
   }
 }
