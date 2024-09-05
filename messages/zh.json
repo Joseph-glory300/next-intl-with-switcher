@@ -7,5 +7,11 @@
   "LocaleSwitcher": {
     "label": "切换语言",
     "locale": "{locale, select, de {德语} en {英语} zh {中文} other {未知}}"
+  },
+  "Navbar": {
+    "home": "首页",
+    "about": "关于",
+    "blog": "博客",
+    "learnMore": "了解更多"
   }
 }

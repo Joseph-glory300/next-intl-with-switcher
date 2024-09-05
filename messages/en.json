@@ -7,5 +7,11 @@
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, de {Deutsch } en {English} zh {Chinese} other {Unknown}} "
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "learnMore": "Learn More"
   }
 }

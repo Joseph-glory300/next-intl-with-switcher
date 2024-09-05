@@ -11,7 +11,7 @@ export default async function Home() {
     <main className="flex min-h-screen flex-col items-center  p-24">
       <h1 className="text-4xl">{t('title')}</h1>
       <p>{t('content')}</p>
-      <Link href="/about">{t('about')}</Link>
+      {/* <Link href="/about">{t('about')}</Link> */}
     </main>
   );
 }

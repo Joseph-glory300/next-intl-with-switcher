@@ -1,20 +1,19 @@
 import React from 'react';
-import Image from 'next/image';
-import Logo from '../public/assets/Logo.svg';
-import User from '../public/assets/User.svg';
-import Menu from '../public/assets/Menu.svg';
 import LocaleSwitcher from '../LocaleSwitcher';
+import { useTranslations } from 'next-intl';
 
 type Props = {};
 
-const navLinks = [
-  { name: 'Home' },
-  { name: 'About' },
-  { name: 'Blog' },
-  { name: 'Learn More' },
-];
-
 const Navbar = (props: Props) => {
+  const t = useTranslations('Navbar');
+
+  const navLinks = [
+    { name: t('home') },
+    { name: t('about') },
+    { name: t('blog') },
+    { name: t('learnMore') },
+  ];
+
   return (
     <nav className="flex w-full items-center justify-between py-[16px] px-[20px] lg:container lg:mx-auto ">
       {/* logo and navlinks */}
